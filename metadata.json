@@ -1,0 +1,6 @@
+{
+  "name": "Hospital & Laboratory Management System",
+  "description": "Comprehensive offline-capable Hospital and Laboratory Management System (HMLMS) with multi-role dashboards, Patient Registration, OPD visits, Lab Orders, Billing, and financial analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,141 @@
+/**
+ * @license
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+export type Language = "en";
+
+export const translations = {
+  en: {
+    // General
+    appName: "Madina General Hospital & Laboratory",
+    appNameBrief: "HMLMS",
+    tagline: "Quality Medical Services at Affordable Rates",
+    currentLanguage: "English Only",
+    role: "User Role",
+    admin: "Administrator",
+    receptionist: "Front Desk / Cashier",
+    doctor: "Consultant Doctor",
+    lab_tech: "Lab Technologist",
+    logout: "Logout",
+    dashboard: "Dashboard",
+    patients: "Patient Registry",
+    doctors: "Doctors Directory",
+    opd: "OPD Desk",
+    lab: "Laboratory System",
+    billing: "Billing & Cashier",
+    audit: "Security Audit Logs",
+    settings: "Hospital Setup",
+    save: "Save",
+    cancel: "Cancel",
+    search: "Search...",
+    print: "Print",
+    status: "Status",
+    actions: "Actions",
+    noData: "No records found.",
+    date: "Date",
+    time: "Time",
+    add: "Add New",
+    edit: "Edit",
+    delete: "Delete",
+    view: "View Details",
+    generate: "Generate",
+
+    // Dashboard
+    statsTitle: "Operational Statistics Table",
+    totalPatients: "Total Registers",
+    totalDoctors: "Active Doctors",
+    totalVisits: "OPD Token Count",
+    totalRevenue: "Gross Revenue Collected",
+    unpaidDues: "Unreleased Dues Ledger",
+    doctorShares: "Doctor Payout Shares",
+    recentVisits: "Recent OPD Queues",
+    labOrdersOverview: "L.I.S. Order Pipeline",
+    monthlyTrend: "Patient Visit and Flow Trend",
+
+    // Patients
+    mrn: "Medical Record No.",
+    patientName: "Patient Name",
+    patientUrduName: "Patient Name (Secondary Info)",
+    age: "Age (Years)",
+    gender: "Gender",
+    male: "Male",
+    female: "Female",
+    other: "Other",
+    phone: "Contact Mobile",
+    address: "Residential Address",
+    bloodGroup: "Blood Group",
+    registerPatient: "Register New Medical File",
+    editPatient: "Modify Patient Profile",
+    searchPatientPlaceholder: "Search by MRN, Name, Phone...",
+
+    // Doctors
+    doctorName: "Doctor Name",
+    specialization: "Clinical Specialty",
+    fee: "Consultation Fee (Rs)",
+    sharePercentage: "Contractor split share (%)",
+    schedule: "OPD Timing Days",
+
+    // OPD Desk
+    tokenList: "Active OPD Patient Line",
+    vitals: "Vitals Registration",
+    symptoms: "Patient Complaints / Symptoms",
+    bp: "Blood Pressure (mmHg)",
+    temp: "Temperature (°F)",
+    pulse: "Pulse Metric (bpm)",
+    weight: "Weight (kg)",
+    issueToken: "Authorize OPD Consultation Token",
+    consultationStatus: "Consultation Queue Status",
+    waiting: "Waiting in Lobby",
+    inConsultation: "Inside Consultation Lounge",
+    completed: "Observation Completed",
+    cancelled: "Appointment Cancelled",
+    addPrescription: "Write Clinical Prescription",
+    diagnosis: "Principal Assessment/Diagnosis",
+    medicationName: "Medicine Brand",
+    dosage: "Dosage Instructions",
+    duration: "Treatment Duration",
+    addMedicine: "Append Medicine Row",
+    prescriptionNotes: "Physician Advisory Notes",
+
+    // Lab
+    labCatalog: "Laboratory Test Dictionary",
+    labOrders: "Sample Pipeline & Result Entry",
+    price: "Test Price (Rs)",
+    parameters: "Analysis Parameters Map",
+    parameterName: "Parameter Description",
+    unit: "Unit",
+    referenceRange: "Diagnostic Reference Range",
+    createTemplate: "Establish Lab Directory Template",
+    barcode: "LIS Sample Barcode",
+    collectSample: "Confirm Sample Storage Drawer",
+    collected: "Sample Stored",
+    enterResults: "Log Clinical Analysis Values",
+    outOfRange: "ABNORMAL OR SUSPICIOUS VALUE DETECTED",
+    validationWorkflow: "Pathologist Signoff Queue",
+    validate: "Certify / Validate Report",
+    validated: "Report Signed Off",
+    pendingSample: "Awaiting Blood/Fluid Sample Draw",
+    resultsEntered: "Results Calculated (Unchecked)",
+    reportSignee: "Authorizing Pathologist",
+
+    // Billing
+    newBill: "Generate Multi-Item Bill",
+    invoiceNumber: "Invoice No.",
+    subtotal: "Gross Amount",
+    discount: "Discretionary Waiver/Discount (Rs)",
+    total: "Net Amount Payable",
+    paid: "Amount Tendered Base (Rs)",
+    dues: "Current Dues",
+    paymentStatus: "Invoice Ledger Status",
+    fullyPaid: "Fully Satisfied Cash",
+    partiallyPaid: "Outstanding Arrears",
+    unpaid: "Null Paid Ledger",
+    doctorSharesTitle: "Consultant Revenue Share Breakdown",
+    collectedShare: "System Share Collected",
+    doctorShare: "Doctor Share Portion",
+
+    // Urdu Context Toggles
+    urduHelperText: "This software is fully offline-capable."
+  }
+};
